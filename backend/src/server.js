@@ -17,7 +17,7 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 
 app.get('/', (req, res) => {
-    res.json({ success: true, message: "API Personal Finance Tracker Berjalan Aman!" });
+    res.json({ success: true, message: "API Berjalan Aman!" });
 });
 
 app.listen(port, () => {
